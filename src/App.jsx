@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "./index.css";
-import equipoFullface from "./assets/equipo-fullface.jpg";
+import equipoFullface from "./assets/equipo-fullface.webp";
 
 function App() {
   const [email, setEmail] = useState("");

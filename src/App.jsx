@@ -99,6 +99,10 @@ function App() {
           src={equipoFullface} 
           alt="Equipo de especialistas FullFace" 
           className="imagen-equipo"
+          width="400"
+          height="517"
+          fetchpriority="high"
+          decoding="async"
         />
         
         <span className="badge-regalo">Un regalo para ti</span>

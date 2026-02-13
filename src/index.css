@@ -40,10 +40,16 @@ body {
 .imagen-equipo {
     width: 100%;
     max-width: 400px;
+    /* Reservamos el espacio para evitar el CLS */
+    aspect-ratio: 400 / 517; 
     height: auto;
     border-radius: 12px;
     margin-bottom: 40px;
     box-shadow: 0 15px 40px rgba(29, 29, 27, 0.12);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f0ede4; /* Color de carga sutil */
 }
 
 .badge-regalo {
